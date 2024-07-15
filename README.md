@@ -17,19 +17,19 @@ Ce projet est une application de démonstration pour un système d'upload utilis
    git clone https://github.com/Zaineb-bf12/upload_ws.git
    cd upload_ws
 2. Créez l'environnement conda à partir du fichier environment.yml :
-
-conda env create -f environment.yml
+   ```sh
+   conda env create -f environment.yml
 3. Activez l'environnement :
-
-conda activate upload_ws
+   ```sh
+   conda activate upload_ws
 
 4. Démarrer le serveur
 Pour démarrer le serveur, exécutez :
-
-python manage.py runserver
+   ```sh
+   python manage.py runserver
 
 
 5. Tester avec le client Python
 Pour tester le serveur avec le script client, exécutez :
-
-python client.py
+   ```sh
+   python client.py
