@@ -23,6 +23,11 @@ Ce projet est une application de démonstration pour un système d'upload utilis
    ```sh
    conda activate upload_ws
 
+4. Démarrer le serveur Redis
+Pour démarrer le serveur Redis avec Docker, exécutez :
+   ```sh
+     docker run --name redis -p 6379:6379 redis
+
 4. Démarrer le serveur
 Pour démarrer le serveur, exécutez :
    ```sh
