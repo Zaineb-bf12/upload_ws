@@ -26,6 +26,7 @@ Ce projet est une application de démonstration pour un système d'upload utilis
 4. Démarrer le serveur
 Pour démarrer le serveur, exécutez :
    ```sh
+   python manage.py migrate
    python manage.py runserver
 
 
